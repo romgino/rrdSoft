@@ -6,6 +6,7 @@ import java.util.Date;
  * Created by rom-pc on 30/06/2015.
  */
 public class Registro  {
+
     private int id;
     private Date data;
     private float decibel;
@@ -14,6 +15,10 @@ public class Registro  {
         this.id = id;
         this.data = data;
         this.decibel = decibel;
+    }
+
+    public Registro() {
+
     }
 
     public int getId() {
@@ -40,4 +45,5 @@ public class Registro  {
     public void setDecibel(float decibel) {
         this.decibel = decibel;
     }
+
 }
